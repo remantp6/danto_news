@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "img":"https://danto-hugo.netlify.app/images/17.jpg",
+        "date": "5 OCT, 2022",
+        "heading":"Top Coffee Shops and Espresso Bars in Philadelphia",
+        "author": "By Bruno Mason"
+    },
+    {
+        "id":2,
+        "img":"https://danto-hugo.netlify.app/images/06.jpg",
+        "date":  "14 JAN, 2023",
+        "heading":"Travel Packing Checklist You'll Ever Need",
+        "author": "By Livia Philips"
+    },
+    {
+        "id":3,
+        "img":"https://danto-hugo.netlify.app/images/20.jpg",
+        "date": "11 JAN, 2023",
+        "heading":"Powerful Keys to Happiness and Success",
+        "author": "By Kaiya George"
+    },
+    {
+        "id":4,
+        "img":"https://danto-hugo.netlify.app/images/25.jpg",
+        "date": "10 JAN, 2023",
+        "heading":"Tips for Taking Your Girlfriend on a Shopping",
+        "author": "By Justin Kenter"
+    },
+    {
+        "id":5,
+        "img":"https://danto-hugo.netlify.app/images/16.jpg",
+        "date": "24 DEC, 2022",
+        "heading":"Everyday Spending Hacks to Help You Save Money",
+        "author": "By Justin Kenter"
+    }
+]

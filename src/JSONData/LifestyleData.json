@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "img":"https://danto-hugo.netlify.app/images/02.jpg",
+        "date": "5 OCT, 2022",
+        "heading":"Watches and Watch Styles for Men",
+        "author": "By Bruno Mason"
+    },
+    {
+        "id":2,
+        "img":"https://danto-hugo.netlify.app/images/04.jpg",
+        "date":  "14 JAN, 2023",
+        "heading":"Women's Fashion in the Cultural West",
+        "author": "By Livia Philips"
+    },
+    {
+        "id":3,
+        "img":"https://danto-hugo.netlify.app/images/09.jpg",
+        "date": "11 JAN, 2023",
+        "heading":"Habits To Start Your Morning Off Brilliantly",
+        "author": "By Kaiya George"
+    },
+    {
+        "id":4,
+        "img":"https://danto-hugo.netlify.app/images/08.jpg",
+        "date": "10 JAN, 2023",
+        "heading":"Food You Want to Pick Up This Summer",
+        "author": "By Justin Kenter"
+    },
+    {
+        "id":5,
+        "img":"https://danto-hugo.netlify.app/images/10.jpg",
+        "date": "24 DEC, 2022",
+        "heading":"Changing Your Thinking Can Change Your Life",
+        "author": "By Justin Kenter"
+    }
+]

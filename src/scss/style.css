@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Gloria+Hallelujah&family=Lato:wght@300;900&family=Libre+Baskerville:wght@400;700&family=Permanent+Marker&family=Poppins:wght@600;700&family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar .dropdown-menu {
+  border: none;
+}
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar .navbar-brand {
+  margin-right: 0;
+}
+.navbar .navbar-nav {
+  width: 250px;
+}
+.navbar .navbar-nav .dropdown-menu.show {
+  border: none;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.9294117647);
+  font-weight: 500;
+  padding: 0 20px;
+}
+.navbar .navbar-nav .active {
+  color: rgba(0, 0, 0, 0.647);
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.navbar form input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.8784313725);
+  font-weight: 500;
+}
+.navbar form input::-moz-placeholder {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.8784313725);
+  font-weight: 500;
+}
+.navbar form input:-ms-input-placeholder {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.8784313725);
+  font-weight: 500;
+}
+.navbar form input::-ms-input-placeholder {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.8784313725);
+  font-weight: 500;
+}
+.navbar form i, .navbar form a, .navbar form input[type=text], .navbar form input::placeholder {
+  font-size: 18px;
+  color: rgba(31, 31, 31, 0.8784313725);
+  font-weight: 500;
+}
+.navbar form input {
+  width: 70px;
+  border: none;
+}
+.navbar form input:focus {
+  outline: transparent;
+}
+.navbar form a {
+  text-decoration: none;
+  background-color: #f8ce5f;
+  border-radius: 50px;
+}
+
+.NavDropdown .nav-link.active {
+  background-color: transparent !important;
+}
+
+.borderBottom, .contact_para_section .contact_para_desc .container, .about_para_section .about_para_desc .container, .author_page .container, .latest_section .container, .banner_content .container, .footer_section .footer_inner, .lifestyle_section .container, .shopping_section .container, .food_section .container, .sport_section .container, .home_content .container {
+  border-bottom: 1px solid rgba(219, 216, 216, 0.85);
+}
+
+.home_content .home_content_top {
+  padding: 30px 0px;
+}
+.home_content .home_content_top h1 {
+  font-size: 60px;
+}
+.home_content .home_content_top p {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  color: #7c8389;
+  margin: 30px 220px;
+}
+.home_content .home_content_bottom .article_head img {
+  border-radius: 30px;
+}
+.home_content .home_content_bottom .article_content .article_meta .article_meta_title p {
+  color: black;
+  background-color: rgba(124, 131, 137, 0.2274509804);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.home_content .home_content_bottom .article_content .article_meta .article_meta_date {
+  margin: 0 8px;
+}
+.home_content .home_content_bottom .article_content .article_meta .article_meta_date p {
+  color: #696f74;
+}
+.home_content .home_content_bottom .article_content .article_meta .article_meta_date p span {
+  padding: 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: black !important;
+}
+.home_content .home_content_bottom .article_content h2, .home_content .home_content_bottom .article_content h3 {
+  padding: 10px 0 0 0;
+}
+.home_content .home_content_bottom .article_content h2 a, .home_content .home_content_bottom .article_content h3 a {
+  color: black;
+  text-decoration: none;
+}
+.home_content .home_content_bottom .article_content h2 a:hover, .home_content .home_content_bottom .article_content h3 a:hover {
+  text-decoration: underline;
+}
+.home_content .home_content_bottom .article_content p {
+  color: #585c60;
+  margin: 10px 0 25px 0;
+}
+.home_content .home_content_bottom .article_content .article_desc {
+  margin: 20px 20px 0 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  word-break: break-all;
+}
+
+.lifestyle_section .lifestyle_section_top, .lifestyle_section .shopping_section_top, .lifestyle_section .food_section_top, .lifestyle_section .sport_section_top, .shopping_section .lifestyle_section_top, .shopping_section .shopping_section_top, .shopping_section .food_section_top, .shopping_section .sport_section_top, .food_section .lifestyle_section_top, .food_section .shopping_section_top, .food_section .food_section_top, .food_section .sport_section_top, .sport_section .lifestyle_section_top, .sport_section .shopping_section_top, .sport_section .food_section_top, .sport_section .sport_section_top {
+  padding: 50px 0px;
+}
+.lifestyle_section .lifestyle_section_top button, .lifestyle_section .shopping_section_top button, .lifestyle_section .food_section_top button, .lifestyle_section .sport_section_top button, .shopping_section .lifestyle_section_top button, .shopping_section .shopping_section_top button, .shopping_section .food_section_top button, .shopping_section .sport_section_top button, .food_section .lifestyle_section_top button, .food_section .shopping_section_top button, .food_section .food_section_top button, .food_section .sport_section_top button, .sport_section .lifestyle_section_top button, .sport_section .shopping_section_top button, .sport_section .food_section_top button, .sport_section .sport_section_top button {
+  border: transparent;
+  background-color: #f8ce5f;
+  padding: 0 11px 0 16px;
+  border-radius: 50px;
+}
+.lifestyle_section .lifestyle_section_top button span, .lifestyle_section .shopping_section_top button span, .lifestyle_section .food_section_top button span, .lifestyle_section .sport_section_top button span, .shopping_section .lifestyle_section_top button span, .shopping_section .shopping_section_top button span, .shopping_section .food_section_top button span, .shopping_section .sport_section_top button span, .food_section .lifestyle_section_top button span, .food_section .shopping_section_top button span, .food_section .food_section_top button span, .food_section .sport_section_top button span, .sport_section .lifestyle_section_top button span, .sport_section .shopping_section_top button span, .sport_section .food_section_top button span, .sport_section .sport_section_top button span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.lifestyle_section .lifestyle_section_top button i, .lifestyle_section .shopping_section_top button i, .lifestyle_section .food_section_top button i, .lifestyle_section .sport_section_top button i, .shopping_section .lifestyle_section_top button i, .shopping_section .shopping_section_top button i, .shopping_section .food_section_top button i, .shopping_section .sport_section_top button i, .food_section .lifestyle_section_top button i, .food_section .shopping_section_top button i, .food_section .food_section_top button i, .food_section .sport_section_top button i, .sport_section .lifestyle_section_top button i, .sport_section .shopping_section_top button i, .sport_section .food_section_top button i, .sport_section .sport_section_top button i {
+  padding: 0 0 0 6px;
+}
+.lifestyle_section .lifestyle_section_top button:hover, .lifestyle_section .shopping_section_top button:hover, .lifestyle_section .food_section_top button:hover, .lifestyle_section .sport_section_top button:hover, .shopping_section .lifestyle_section_top button:hover, .shopping_section .shopping_section_top button:hover, .shopping_section .food_section_top button:hover, .shopping_section .sport_section_top button:hover, .food_section .lifestyle_section_top button:hover, .food_section .shopping_section_top button:hover, .food_section .food_section_top button:hover, .food_section .sport_section_top button:hover, .sport_section .lifestyle_section_top button:hover, .sport_section .shopping_section_top button:hover, .sport_section .food_section_top button:hover, .sport_section .sport_section_top button:hover {
+  background-color: #e9c96f;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_head img, .lifestyle_section .shopping_section_bottom .article_inner .article_head img, .lifestyle_section .food_section_bottom .article_inner .article_head img, .lifestyle_section .sport_section_bottom .article_inner .article_head img, .shopping_section .lifestyle_section_bottom .article_inner .article_head img, .shopping_section .shopping_section_bottom .article_inner .article_head img, .shopping_section .food_section_bottom .article_inner .article_head img, .shopping_section .sport_section_bottom .article_inner .article_head img, .food_section .lifestyle_section_bottom .article_inner .article_head img, .food_section .shopping_section_bottom .article_inner .article_head img, .food_section .food_section_bottom .article_inner .article_head img, .food_section .sport_section_bottom .article_inner .article_head img, .sport_section .lifestyle_section_bottom .article_inner .article_head img, .sport_section .shopping_section_bottom .article_inner .article_head img, .sport_section .food_section_bottom .article_inner .article_head img, .sport_section .sport_section_bottom .article_inner .article_head img {
+  height: 265px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content, .lifestyle_section .shopping_section_bottom .article_inner .article_content, .lifestyle_section .food_section_bottom .article_inner .article_content, .lifestyle_section .sport_section_bottom .article_inner .article_content, .shopping_section .lifestyle_section_bottom .article_inner .article_content, .shopping_section .shopping_section_bottom .article_inner .article_content, .shopping_section .food_section_bottom .article_inner .article_content, .shopping_section .sport_section_bottom .article_inner .article_content, .food_section .lifestyle_section_bottom .article_inner .article_content, .food_section .shopping_section_bottom .article_inner .article_content, .food_section .food_section_bottom .article_inner .article_content, .food_section .sport_section_bottom .article_inner .article_content, .sport_section .lifestyle_section_bottom .article_inner .article_content, .sport_section .shopping_section_bottom .article_inner .article_content, .sport_section .food_section_bottom .article_inner .article_content, .sport_section .sport_section_bottom .article_inner .article_content {
+  margin-bottom: 25px;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .lifestyle_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .lifestyle_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .lifestyle_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .shopping_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .shopping_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .shopping_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .shopping_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .food_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .food_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .food_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .food_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .sport_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .sport_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .sport_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_title p, .sport_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_title p {
+  background-color: rgba(124, 131, 137, 0.2274509804);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date, .lifestyle_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date, .lifestyle_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date, .lifestyle_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date, .shopping_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date, .shopping_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date, .shopping_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date, .shopping_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date, .food_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date, .food_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date, .food_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date, .food_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date, .sport_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date, .sport_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date, .sport_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date, .sport_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date {
+  margin: 0 8px;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .lifestyle_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .lifestyle_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .lifestyle_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .shopping_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .shopping_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .shopping_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .shopping_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .food_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .food_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .food_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .food_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .sport_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .sport_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .sport_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p, .sport_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p {
+  color: #696f74;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .lifestyle_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .lifestyle_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .lifestyle_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .shopping_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .shopping_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .shopping_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .shopping_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .food_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .food_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .food_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .food_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .sport_section .lifestyle_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .sport_section .shopping_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .sport_section .food_section_bottom .article_inner .article_content .article_meta .article_meta_date p span, .sport_section .sport_section_bottom .article_inner .article_content .article_meta .article_meta_date p span {
+  padding: 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: black !important;
+}
+.lifestyle_section .lifestyle_section_bottom .article_inner .article_content .article_info span, .lifestyle_section .shopping_section_bottom .article_inner .article_content .article_info span, .lifestyle_section .food_section_bottom .article_inner .article_content .article_info span, .lifestyle_section .sport_section_bottom .article_inner .article_content .article_info span, .shopping_section .lifestyle_section_bottom .article_inner .article_content .article_info span, .shopping_section .shopping_section_bottom .article_inner .article_content .article_info span, .shopping_section .food_section_bottom .article_inner .article_content .article_info span, .shopping_section .sport_section_bottom .article_inner .article_content .article_info span, .food_section .lifestyle_section_bottom .article_inner .article_content .article_info span, .food_section .shopping_section_bottom .article_inner .article_content .article_info span, .food_section .food_section_bottom .article_inner .article_content .article_info span, .food_section .sport_section_bottom .article_inner .article_content .article_info span, .sport_section .lifestyle_section_bottom .article_inner .article_content .article_info span, .sport_section .shopping_section_bottom .article_inner .article_content .article_info span, .sport_section .food_section_bottom .article_inner .article_content .article_info span, .sport_section .sport_section_bottom .article_inner .article_content .article_info span {
+  color: #585c60;
+  font-size: 16px;
+}
+
+.footer_section .footer_inner {
+  padding: 60px 0px 60px 0;
+}
+.footer_section .footer_inner .footer_section_top p {
+  padding: 20px 0px;
+  font-family: "Rubik", sans-serif;
+  font-size: 19px;
+  color: #7c8389;
+}
+.footer_section .footer_inner .footer_section_top .footer__social_media_icons i {
+  color: black;
+  font-size: 25px;
+  padding-right: 30px;
+}
+.footer_section .footer_inner .footer_section_top .footer__social_media_icons i:hover {
+  color: rgba(38, 37, 37, 0.5137254902);
+}
+.footer_section .footer_inner .footer_section_mid_left h2, .footer_section .footer_inner .footer_section_mid_right h2 {
+  padding: 40px 0px 20px 0px;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_head img {
+  border-radius: 20px;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content {
+  padding: 0 25px;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content .article_meta .article_meta_title p {
+  color: black;
+  background-color: rgba(124, 131, 137, 0.2274509804);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content .article_meta .article_meta_date {
+  margin: 0 8px;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content .article_meta .article_meta_date p {
+  color: #696f74;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content .article_meta .article_meta_date p span {
+  padding: 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: black !important;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content h5 {
+  padding: 10px 0 0 0;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content h5 a {
+  color: black;
+  text-decoration: none;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content h5 a:hover {
+  text-decoration: underline;
+}
+.footer_section .footer_inner .footer_section_mid_left .article .article_content .article_info p {
+  color: #585c60;
+  margin: 0px;
+}
+.footer_section .footer_inner .footer_section_mid_right p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  color: #7c8389;
+}
+.footer_section .footer_inner .footer_section_mid_right form input {
+  border: none;
+  outline: transparent;
+  margin-right: 25px;
+  background-color: #eaecef;
+  border-radius: 50px;
+  padding: 12px 50px 12px 25px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer_section .footer_inner .footer_section_mid_right form p {
+  color: red;
+}
+.footer_section .footer_inner .footer_section_mid_right form button {
+  background-color: #f8ce5f;
+  color: black;
+  border: transparent;
+  padding: 12px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.footer_section .footer_section_bottom {
+  padding: 10px 0;
+}
+.footer_section .footer_section_bottom .copyright p {
+  color: #696f74;
+}
+.footer_section .footer_section_bottom .footer_section_bottom_right .toggle_theme button {
+  background-color: transparent;
+  border: none;
+  color: rgb(72, 72, 72);
+}
+.footer_section .footer_section_bottom .footer_section_bottom_right .toggle_theme button:hover {
+  text-decoration: underline;
+}
+.footer_section .footer_section_bottom .footer_section_bottom_right .scroll_top a {
+  text-decoration: none;
+  color: rgb(72, 72, 72);
+}
+.footer_section .footer_section_bottom .footer_section_bottom_right .scroll_top a:hover {
+  text-decoration: underline;
+}
+
+.banner_content {
+  padding: 55px 200px 0px 200px;
+}
+.banner_content .banner_content_top .article_meta .article_meta_title p {
+  color: black;
+  background-color: rgba(124, 131, 137, 0.2274509804);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.banner_content .banner_content_top .article_meta .article_meta_date {
+  margin: 0 8px;
+}
+.banner_content .banner_content_top .article_meta .article_meta_date p {
+  color: #696f74;
+}
+.banner_content .banner_content_top .article_meta .article_meta_date p span {
+  padding: 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: black !important;
+}
+.banner_content .banner_content_top h1 {
+  font-size: 65px;
+  margin: 8px 0;
+}
+.banner_content .banner_content_top .para-content p {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  color: #696f74;
+  padding: 20px 0;
+}
+.banner_content .banner_content_bottom .bottom_left_content img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}
+.banner_content .banner_content_bottom .bottom_left_content .post_author_details .post_author_social_media i {
+  font-size: 18px;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.647);
+}
+.banner_content .banner_content_bottom .banner_content_bottom_right {
+  padding-bottom: 20px;
+}
+.banner_content .banner_content_bottom .banner_content_bottom_right img {
+  border-radius: 20px;
+}
+.banner_content .banner_content_bottom .banner_content_bottom_right .para-content p {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  color: #696f74;
+}
+.banner_content .banner_content_bottom .banner_content_bottom_right .span-content {
+  padding: 5px 0 0 0;
+}
+.banner_content .banner_content_bottom .banner_content_bottom_right .span-content p {
+  font-size: 22px;
+  font-family: "Permanent Marker", cursive;
+  border-left: 5px solid #f8ce5f;
+  padding-left: 20px;
+}
+
+.latest_section .container .latest_section_top {
+  padding: 50px 0px;
+}
+.latest_section .latest_section_bottom .article_inner .article_head img {
+  height: 265px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.latest_section .latest_section_bottom .article_inner .article_content .article_meta .article_meta_title p {
+  background-color: rgba(124, 131, 137, 0.2274509804);
+  padding: 5px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.latest_section .latest_section_bottom .article_inner .article_content .article_meta .article_meta_date {
+  margin: 0 8px;
+}
+.latest_section .latest_section_bottom .article_inner .article_content .article_meta .article_meta_date p {
+  color: #696f74;
+}
+.latest_section .latest_section_bottom .article_inner .article_content .article_meta .article_meta_date p span {
+  padding: 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: black !important;
+}
+.latest_section .latest_section_bottom .article_inner .article_content .article_info span {
+  color: #585c60;
+  font-size: 16px;
+}
+.latest_section .loadMorePostButton {
+  text-align: center;
+}
+.latest_section .loadMorePostButton button {
+  border: transparent;
+  background-color: #f8ce5f;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.author_page .author_page_top {
+  padding: 50px 0px;
+}
+.author_page .author_page_bottom {
+  padding-bottom: 50px;
+}
+.author_page .author_component_section {
+  background-color: #eaecef;
+  border-radius: 20px;
+}
+.author_page .author_component_section .author_desc {
+  padding: 30px;
+}
+.author_page .author_component_section .author_desc img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+.author_page .author_component_section .author_desc h5 {
+  padding: 10px 0;
+}
+.author_page .author_component_section .author_desc p {
+  color: #696f74;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about_contact_section .about_contact_content h1 {
+  font-size: 50px;
+  padding: 40px 0 20px 0;
+}
+.about_contact_section .about_contact_content img {
+  border-radius: 20px;
+}
+
+.about_para_section .about_para_desc .container {
+  padding-bottom: 40px;
+}
+.about_para_section .about_para_desc .para-content p {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  color: #696f74;
+}
+.about_para_section .about_para_desc .span-content {
+  padding: 5px 0 0 0;
+}
+.about_para_section .about_para_desc .span-content p {
+  font-size: 22px;
+  font-family: "Permanent Marker", cursive;
+  border-left: 5px solid #f8ce5f;
+  padding-left: 20px;
+}
+
+.contact_para_section .contact_para_desc .container {
+  padding-bottom: 40px;
+}
+.contact_para_section .contact_para_desc .para-content p {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  color: #696f74;
+}
+
+form .input_label input, form .input_label textarea {
+  width: 100% !important;
+  margin: 8px 0;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid rgb(224, 222, 222);
+  outline: transparent;
+}
+form .input_label textarea::-webkit-input-placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+form .input_label textarea::-moz-placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+form .input_label textarea:-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+form .input_label textarea::-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+form .input_label input, form .input_label textarea::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+form .input_label p {
+  color: red;
+}
+form .button_label button {
+  border: none;
+  margin: 12px 0;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f8ce5f;
+  padding: 12px 20px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
