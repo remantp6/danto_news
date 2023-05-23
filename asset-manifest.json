@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/danto_news/static/css/main.203926ed.css",
-    "main.js": "/danto_news/static/js/main.2babe628.js",
+    "main.js": "/danto_news/static/js/main.290e6bdc.js",
     "static/js/787.fdad5a94.chunk.js": "/danto_news/static/js/787.fdad5a94.chunk.js",
     "index.html": "/danto_news/index.html",
     "main.203926ed.css.map": "/danto_news/static/css/main.203926ed.css.map",
-    "main.2babe628.js.map": "/danto_news/static/js/main.2babe628.js.map",
+    "main.290e6bdc.js.map": "/danto_news/static/js/main.290e6bdc.js.map",
     "787.fdad5a94.chunk.js.map": "/danto_news/static/js/787.fdad5a94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.203926ed.css",
-    "static/js/main.2babe628.js"
+    "static/js/main.290e6bdc.js"
   ]
 }
