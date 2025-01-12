@@ -1,4 +1,3 @@
-# search-ui 
 
 ## Link to hosted app
 
